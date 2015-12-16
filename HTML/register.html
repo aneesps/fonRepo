@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="SHORTCUT ICON" href="../Images/icon.png">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <script src="../JavaScript/validate.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header>
+     
+      <ul>
+        <li><img src="../Images/tree.jpg" ></li>
+        <li><a href="home.html">Home</a></li>
+            <ul style="float:right;list-style-type:none;">
+              <li><a href="register.html">Register</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+      </ul>
+    </header>
+    <h1 style="text-align:center; color:@#333";> Register Here</h1>
+    <div class="container">
+     
+      <div class="form-wrapper">
+        <form class="registration-form" id="registration-form" onsubmit="return validate();">
+          <label for="fname">First Name</label>
+          <input type="text" name="fname" id="fname" required="First name is mandatory" placeholder="First Name ?">
+          <label for="lname">Last Name</label>
+          <input type="text" name="lname" id="lname" required="Last name is mandatory" placeholder="Last Name ?">
+          <label for="uname">User Name</label>
+          <input type="text" name="uname" id="uname" required="User name is mandatory" placeholder="User Name ?">
+          <label for="gender">Gender</label>
+          <select name="gender" id="gender">
+            <option default>Gender </option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+          <label for="email">E-Mail</label>
+          <input type="email" placeholder="Email Address" name="email" id="email" required>
+          <label for="password">Password</label>
+          <input type="password" placeholder="Password" name="password" id="password" required>
+          <ul>
+             <li> <input type="submit" value="Register"></li>
+              <li><input type="reset" value="Reset"></li>
+           </ul>   
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="foot-bar">
+          <p align="center">&copy; Copyright 2015. All Rights Reserved.</p> 
+      </div>
+    </footer>
+  </body>
+ 
+  
+</html>

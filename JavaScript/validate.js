@@ -37,8 +37,9 @@ function ValidateEmail(email)
 
 
 
-  if (fname.value && lname.value && allLetter(fname) && allLetter(lname) &&ValidateEmail(email) && password.value) 
+  if (fname.value && lname.value && allLetter(fname) && allLetter(lname) && allLetter(uname) &&ValidateEmail(email) && password.value) 
   	  alert("Registration Successful.");
+    localStorage.removeItem('fname');
    
     
 }

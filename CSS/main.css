@@ -13,8 +13,8 @@ html, body {
 }
 
 header{
-  width: 100vw;
-  padding: 15px 0;
+  width: 99vw;
+  padding: 0 0;
   margin: 0;
   background-color: grey;
   text-align: center;
@@ -28,6 +28,8 @@ header h1{
   color: rgb(24, 24, 24);
   letter-spacing: 2vw;
 }
+
+
 
 .container{
   width: 500px;
@@ -65,7 +67,7 @@ form select{
   border:2px solid;
   margin:10px auto;
   background-color:white;
-  color: rgb(91, 91, 91);
+  color:black;
   cursor: pointer; 
 }
 
@@ -74,7 +76,7 @@ form select{
   border:2px solid;
   margin:10px auto;
   background-color:white;
-  color: rgb(91, 91, 91);
+  color:black;
   cursor: pointer; 
   padding-right: 50px;
 }
@@ -97,6 +99,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+
     
 }
 
@@ -105,10 +108,11 @@ li {
 }
 
 li a {
+   margin-top: 55px;
     display: block;
     color: white;
     text-align: center;
-    padding: 32px 16px 14px 16px;
+    padding: 10px 5px 10px 5px;
     text-decoration: none;
 }
 
@@ -132,7 +136,7 @@ footer .foot-bar{
 }
 
 li img{
-  width:80px;
-  height:65px;
+  width:100px;
+  height:90px;
 }
 

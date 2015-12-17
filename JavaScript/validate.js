@@ -36,15 +36,9 @@ function ValidateEmail(email)
  }
 
 
-
-<<<<<<< HEAD
   if (fname.value && lname.value && allLetter(fname) && allLetter(lname) && allLetter(uname) &&ValidateEmail(email) && password.value) 
   	  alert("Registration Successful.");
     localStorage.removeItem('fname');
-=======
-  if (fname.value && lname.value && allLetter(fname) && allLetter(lname) &&ValidateEmail(email) && password.value) 
-  	  alert("Registration Successful.");
->>>>>>> 92023854dab74c2343c35a03dca0269ffcab942d
    
     
 }

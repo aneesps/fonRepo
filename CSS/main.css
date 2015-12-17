@@ -13,7 +13,11 @@ html, body {
 }
 
 header{
+<<<<<<< HEAD
   width: 99vw;
+=======
+  width: 100%;
+>>>>>>> retainData
   padding: 0 0;
   margin: 0;
   background-color: grey;
@@ -62,7 +66,7 @@ form select{
   margin:   15px;
 }
 
-.registration-form input[type="submit"]{
+.form input[type="submit"]{
   width: 200px;
   border:2px solid;
   margin:10px auto;
@@ -71,7 +75,7 @@ form select{
   cursor: pointer; 
 }
 
-.registration-form input[type="reset"]{
+.form input[type="reset"]{
   width: 200px;
   border:2px solid;
   margin:10px auto;
@@ -118,13 +122,13 @@ li a {
 
 li a:hover:not(.active) {
     background-color: #111;
-    color:green;
+    color:red;
 }
 
 .active {
     background-color: #4CAF50;
 }
-footer .foot-bar{
+.foot-bar {
     position: fixed;
     bottom: 0px;
     left:0px;
@@ -134,9 +138,31 @@ footer .foot-bar{
     height: 40px;
     font-size: 12px;
 }
-
-li img{
-  width:100px;
-  height:90px;
+.footbar{
+  position:;
+  bottom: 0px;
+    left:0px;
+    background-color: grey;
+    width: 100%;
+    color:white;
+    height: 40px;
+    font-size: 12px;
 }
 
+li img{
+<<<<<<< HEAD
+  width:100px;
+  height:90px;
+=======
+  width:80px;
+  height:80px;
+  float:left;
+  margin:10px 5px;
+>>>>>>> retainData
+}
+
+a.image{
+	padding: none;
+	margin:none;
+
+}

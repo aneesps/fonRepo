@@ -124,9 +124,19 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
-footer {
+.foot-bar {
     position: fixed;
     bottom: 0px;
+    left:0px;
+    background-color: grey;
+    width: 100%;
+    color:white;
+    height: 40px;
+    font-size: 12px;
+}
+.footbar{
+  position:;
+  bottom: 0px;
     left:0px;
     background-color: grey;
     width: 100%;
